@@ -1,3 +1,5 @@
+# Tyler Decker
+
 sort:	addi	$sp, $sp, -20		# save $ra and $s0-$s3
 	sw	$ra, 16($sp)		# on stack
 	sw	$s3, 12($sp)
